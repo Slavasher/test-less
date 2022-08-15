@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79P0U.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ptsans/v17/jizfRExUiTo99u79B_mh4Ok.ttf) format('truetype');
+}
+.index {
+  font-size: 14px;
+  line-height: 26px;
+  min-width: 320px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+}
+@media (min-width: 768px) {
+  .index {
+    min-width: 768px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1200px) {
+  .index {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
